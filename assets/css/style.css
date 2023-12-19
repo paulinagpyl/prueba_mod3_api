@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/013/487/884/large_2x/currency-exchange-money-transfer-fintech-financial-technology-world-economy-report-man-using-mobile-phone-with-forex-trading-graph-stock-market-report-free-photo.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 95vh;
+}
+.container{
+    border-style: solid;
+    width: 500px;
+    margin:10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); 
+    border-radius: 10px;
+    text-align: center;
+}
+
+#grafico {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    display: none;
+}
+
+#monedas {
+    width: 170px;
+    height: 20px;
+    text-align:center
+}
+
+#buscar {
+    margin-top: 5px;
+    width: 170px;
+    height: 20px;  
+}
